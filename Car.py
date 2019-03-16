@@ -13,7 +13,7 @@ class Car:
 
         # Connect to the carla server
         print("Connecting to Carla server...")
-        self.client = carla.Client('localhost', 2000)
+        self.client = carla.Client('192.168.1.116', 2000)
         self.client.set_timeout(10.0)  # seconds
         self.client.load_world(map_name)
         print("Connected!")
@@ -102,4 +102,4 @@ class Car:
 
 
 if __name__ == "__main__":
-    car = Car('vehicle.tesla.*', 2, "Town01")
+    car = Car('vehicle.tesla.*', 0)
