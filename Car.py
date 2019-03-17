@@ -1,3 +1,4 @@
+import os
 import random
 from time import sleep
 
@@ -27,6 +28,9 @@ class Car:
         # Spawn random npc's
         self.spawn_npc(self.count)
 
+        #Start the ros brige
+        os.system('./startRosBridge.sh')
+
         # Keep alive
         while 1:
             sleep(10)
@@ -43,8 +47,8 @@ class Car:
         # RGB Senors
         camera_bp = self.world.get_blueprint_library().find('sensor.camera.rgb')
         # camera_bp.set_attribute('sensor_tick', '1.0')
-        camera_bp.set_attribute('image_size_x', '1344')
-        camera_bp.set_attribute('image_size_y', '376')
+        camera_bp.set_attribute('image_size_x', '1344') #1344
+        camera_bp.set_attribute('image_size_y', '376') #376
         transform = carla.Transform(carla.Location(x=1.8, z=2.5))
         camera = self.world.spawn_actor(camera_bp, transform, attach_to=player)
         self.actor_list.append(camera)
@@ -102,4 +106,4 @@ class Car:
 
 
 if __name__ == "__main__":
-    car = Car('vehicle.tesla.*', 0)
+    car = Car('vehicle.tesla.*', 15)
