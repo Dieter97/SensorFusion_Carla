@@ -1,5 +1,5 @@
 site_name: Sensor Fusion Documentation
-nav:
+pages:
 - Home: 'index.md'
 - User Guide:
     - 'Installation': 'installation.md'
