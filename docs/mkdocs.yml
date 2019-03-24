@@ -1,0 +1,13 @@
+site_name: Sensor Fusion Documentation
+nav:
+- Home: 'index.md'
+- User Guide:
+    - 'Installation': 'installation.md'
+    - 'Quick Start': 'start.md'
+- Portfolio:
+    - 'Documents': 'docs.md'
+- About:
+    - 'About': 'about.md'
+theme: readthedocs
+markdown_extensions:
+    - admonition

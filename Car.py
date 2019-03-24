@@ -7,14 +7,14 @@ import carla
 
 class Car:
 
-    def __init__(self, actor_filter, npc_count=10,map_name="Town03"):
+    def __init__(self, actor_filter, npc_count=10,map_name="Town04"):
         # Constants
         self._actor_filter = actor_filter
         self.actor_list = []
 
         # Connect to the carla server
         print("Connecting to Carla server...")
-        self.client = carla.Client('192.168.1.116', 2000)
+        self.client = carla.Client('192.168.1.137', 2000)
         self.client.set_timeout(10.0)  # seconds
         self.client.load_world(map_name)
         print("Connected!")
@@ -28,7 +28,7 @@ class Car:
         # Spawn random npc's
         self.spawn_npc(self.count)
 
-        #Start the ros brige
+        # Start the ros brige
         os.system('./startRosBridge.sh')
 
         # Keep alive
@@ -79,7 +79,7 @@ class Car:
             if npc_count <= 0:
                 break"""
         while npc_count > 0:
-            sleep(0.5) # Delay between spawns
+            sleep(0.1) # Delay between spawns
             if self.try_spawn_random_vehicle_at(random.choice(spawn_points)):
                 npc_count -= 1
 
@@ -106,4 +106,4 @@ class Car:
 
 
 if __name__ == "__main__":
-    car = Car('vehicle.tesla.*', 15)
+    car = Car('vehicle.tesla.*', 5)
