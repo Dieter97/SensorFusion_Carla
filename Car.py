@@ -7,7 +7,7 @@ import carla
 
 class Car:
 
-    def __init__(self, actor_filter, npc_count=10,map_name="Town04"):
+    def __init__(self, actor_filter, npc_count=10,map_name="Town06"):
         # Constants
         self._actor_filter = actor_filter
         self.actor_list = []
@@ -57,9 +57,9 @@ class Car:
         lidar_bp = self.world.get_blueprint_library().find('sensor.lidar.ray_cast')
         # lidar_bp.set_attribute('sensor_tick', '1.0')
         lidar_bp.set_attribute('range', '10000')
-        lidar_bp.set_attribute('channels', '16')
-        lidar_bp.set_attribute('upper_fov', '15')
-        lidar_bp.set_attribute('lower_fov', '-15')
+        lidar_bp.set_attribute('channels', '32')
+        lidar_bp.set_attribute('upper_fov', '10')
+        lidar_bp.set_attribute('lower_fov', '-30')
         lidar_bp.set_attribute('rotation_frequency', '20')
         # lidar_bp.set_attribute('points_per_second', '300000')
         transform = carla.Transform(carla.Location(x=1.5, z=2.5))
@@ -106,4 +106,4 @@ class Car:
 
 
 if __name__ == "__main__":
-    car = Car('vehicle.tesla.*', 5)
+    car = Car('vehicle.tesla.*', 15)
