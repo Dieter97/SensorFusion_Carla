@@ -80,7 +80,7 @@ This should now run and generate a xxxxxx.txt label file per frame in the output
 
 The evaluation script needs ground truth data to be able to evaluate the detected objects. This ground truth data comes in the form of label file. 
 The label files for each frame can be generated from the `tracklet_labels.xml` file downloaded earlier.
-To generate these xxxxxx.txt label files run the `tracklet_to_label.m` matlab script. You will need to change the parameters of the script in matlab itself.
+To generate these xxxxxx.txt label files run the `tracklet_to_label.m` matlab script. You will need to change the parameters of the script in matlab yourself.
 You must locate the earlier downloaded data set, and specify a output location.
 
 To run the evaluation script you ideally end up with this structure:
