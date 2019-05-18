@@ -7,7 +7,7 @@ import carla
 
 class Car:
 
-    def __init__(self, actor_filter, npc_count=10,map_name="Town06"):
+    def __init__(self, actor_filter, npc_count=10,map_name="Town03"):
         # Constants
         self._actor_filter = actor_filter
         self.actor_list = []
@@ -49,6 +49,7 @@ class Car:
         # camera_bp.set_attribute('sensor_tick', '1.0')
         camera_bp.set_attribute('image_size_x', '1344') #1344
         camera_bp.set_attribute('image_size_y', '376') #376
+	camera_bp.set_attribute('fov','90')
         transform = carla.Transform(carla.Location(x=1.8, z=2.5))
         camera = self.world.spawn_actor(camera_bp, transform, attach_to=player)
         self.actor_list.append(camera)
@@ -61,7 +62,7 @@ class Car:
         lidar_bp.set_attribute('upper_fov', '10')
         lidar_bp.set_attribute('lower_fov', '-30')
         lidar_bp.set_attribute('rotation_frequency', '20')
-        # lidar_bp.set_attribute('points_per_second', '300000')
+        lidar_bp.set_attribute('points_per_second', '70000')
         transform = carla.Transform(carla.Location(x=1.5, z=2.5))
         lidar = self.world.spawn_actor(lidar_bp, transform, attach_to=player)
         self.actor_list.append(lidar)
@@ -106,4 +107,4 @@ class Car:
 
 
 if __name__ == "__main__":
-    car = Car('vehicle.tesla.*', 15)
+    car = Car('vehicle.tesla.*', 10)

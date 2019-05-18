@@ -1,5 +1,7 @@
 # Documents
 
+Here all important portfolio documentation can be found:
+
 ## Surver paper
 
 [Open here in external viewer](Survey.pdf)

@@ -4,6 +4,7 @@ pages:
 - User Guide:
     - 'Installation': 'installation.md'
     - 'Quick Start': 'start.md'
+    - 'Evaluation' : 'evaluation.md'
 - Portfolio:
     - 'Documents': 'docs.md'
 - About:
@@ -23,6 +24,7 @@ markdown_extensions:
     - pymdownx.arithmatex
     - pymdownx.smartsymbols
     - pymdownx.superfences
+    - pymdownx.details
     - pymdownx.highlight:
         css_class: codehilite
         extend_pygments_lang:
