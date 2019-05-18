@@ -13,6 +13,7 @@ This documentation includes:
 
 * [Dependencies installation](installation.md)
 * [Quick start guide](start.md)
+* [Running the evaluation](evaluation.md)
 * [Portfolio documents](docs.md)
 * [ROS messages and topic overview](ros.md)
 
