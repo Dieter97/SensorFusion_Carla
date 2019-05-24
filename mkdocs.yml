@@ -1,22 +1,23 @@
 site_name: Sensor Fusion Documentation
 pages:
 - Home: 'index.md'
-- User Guide:
-    - 'Installation': 'Tech Report/Documentation/installation.md'
-    - 'Quick Start': 'Tech Report/Documentation/start.md'
-    - 'Evaluation' : 'Tech Report/Documentation/evaluation.md'
-- Code Reference:
-    - 'Cloud_crop': 'Tech Report/Documentation/code/cloud_crop.md'
-    - 'Clustering': 'Tech Report/Documentation/code/clustering.md'
-    - 'Lidar_oject_fusion': 'Tech Report/Documentation/code/fusion1.md'
-    - 'Cluster_camera_fusion': 'Tech Report/Documentation/code/fusion2.md'
-    - 'Lidar_camera_fusion': 'Tech Report/Documentation/code/lidar_camera.md'
-    - 'sensor_fusion_msg':
-        - 'CameraObjects': 'Tech Report/Documentation/code/msg/cameraObjects.md'
-        - 'FusedObjectsMsg': 'Tech Report/Documentation/code/msg/fusedObjects.md'
-        - 'LidarClusters': 'Tech Report/Documentation/code/msg/LidarClusters.md'
-        - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
-        - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
+- Tech Report:
+  - User Guide:
+      - 'Installation': 'Tech Report/Documentation/installation.md'
+      - 'Quick Start': 'Tech Report/Documentation/start.md'
+      - 'Evaluation' : 'Tech Report/Documentation/evaluation.md'
+  - Code Reference:
+      - 'Cloud_crop': 'Tech Report/Documentation/code/cloud_crop.md'
+      - 'Clustering': 'Tech Report/Documentation/code/clustering.md'
+      - 'Lidar_oject_fusion': 'Tech Report/Documentation/code/fusion1.md'
+      - 'Cluster_camera_fusion': 'Tech Report/Documentation/code/fusion2.md'
+      - 'Lidar_camera_fusion': 'Tech Report/Documentation/code/lidar_camera.md'
+      - 'sensor_fusion_msg':
+          - 'CameraObjects': 'Tech Report/Documentation/code/msg/cameraObjects.md'
+          - 'FusedObjectsMsg': 'Tech Report/Documentation/code/msg/fusedObjects.md'
+          - 'LidarClusters': 'Tech Report/Documentation/code/msg/LidarClusters.md'
+          - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
+          - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
 - Adminisration:
     - 'Documents': 'Administration/docs.md'
 - Papers: 'Papers/papers.md'

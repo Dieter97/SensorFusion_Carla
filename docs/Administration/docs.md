@@ -8,6 +8,12 @@ Here can all important administration documents be found:
 
 <embed src= "Proposal.pdf" width= "700" height= "500">
 
+## Progress Reports
+
+<a href="MAP_VGVs.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "MAP_VGVs.pdf" width= "700" height= "500">
+
 ## Internship Agreement
 
 <a href="Stageovereenkomst.pdf" target="_blank">Open here in external viewer</a>

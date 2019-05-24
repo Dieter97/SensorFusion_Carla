@@ -15,7 +15,7 @@ $ SDL_VIDEODRIVER=offscreen SDL_HINT_CUDA_DEVICE=0 ./CarlaUE4.sh
 ``` 
 
 ### Step 2: Starting Car.py
-Car.py constains the code to spawn the Carla player actor alongside the sensors. This program will also start the Carla ROS bridge and open Rviz.
+Car.py constains the code to spawn the Carla player actor alongside the sensors. This program will also start the Carla ROS bridge and opens Rviz.
 To do this, go to the SensorFusion_Carla directory and type:
 ```shell
 $ source venv/bin/activate
@@ -67,9 +67,9 @@ source devel/setup.bash
     
     ??? Help 
         - Camera input topic: /carla/ego_vehicle/camera/rgb/front/image_color
-        - Lidar point cloud: /carla/<ROLE NAME>/lidar/<SENSOR ROLE NAME>/point_cloud
+        - Lidar point cloud: /carla/ego_vehicle/lidar/front/point_cloud
         - COP: (0, 0, 0)
-        - Scale factor: -3500
+        - Scale factor: -2500
         - Camera plane: 0.2
         
         :exclamation: You can edit the launch file to match your needed parameters :exclamation:
