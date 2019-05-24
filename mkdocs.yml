@@ -2,25 +2,25 @@ site_name: Sensor Fusion Documentation
 pages:
 - Home: 'index.md'
 - User Guide:
-    - 'Installation': 'installation.md'
-    - 'Quick Start': 'start.md'
-    - 'Evaluation' : 'evaluation.md'
+    - 'Installation': 'Tech Report/Documentation/installation.md'
+    - 'Quick Start': 'Tech Report/Documentation/start.md'
+    - 'Evaluation' : 'Tech Report/Documentation/evaluation.md'
 - Code Reference:
-    - 'Cloud_crop': 'code/cloud_crop.md'
-    - 'Clustering': 'code/clustering.md'
-    - 'Lidar_oject_fusion': 'code/fusion1.md'
-    - 'Cluster_camera_fusion': 'code/fusion2.md'
-    - 'Lidar_camera_fusion': 'code/lidar_camera.md'
+    - 'Cloud_crop': 'Tech Report/Documentation/code/cloud_crop.md'
+    - 'Clustering': 'Tech Report/Documentation/code/clustering.md'
+    - 'Lidar_oject_fusion': 'Tech Report/Documentation/code/fusion1.md'
+    - 'Cluster_camera_fusion': 'Tech Report/Documentation/code/fusion2.md'
+    - 'Lidar_camera_fusion': 'Tech Report/Documentation/code/lidar_camera.md'
     - 'sensor_fusion_msg':
-        - 'CameraObjects': 'code/msg/cameraObjects.md'
-        - 'FusedObjectsMsg': 'code/msg/fusedObject.md'
-        - 'LidarClusters': 'code/msg/LidarClusters.md'
-        - 'MappedPointMsg': 'code/msg/MappedPoint.md'
-        - 'ObjectBoundingBox': 'code/msg/ObjectBoundingBox.md'
+        - 'CameraObjects': 'Tech Report/Documentation/code/msg/cameraObjects.md'
+        - 'FusedObjectsMsg': 'Tech Report/Documentation/code/msg/fusedObject.md'
+        - 'LidarClusters': 'Tech Report/Documentation/code/msg/LidarClusters.md'
+        - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
+        - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
 - Portfolio:
-    - 'Documents': 'docs.md'
+    - 'Documents': 'Administration/docs.md'
 - About:
-    - 'About': 'about.md'
+    - 'About': 'Administration/about.md'
 theme:
   name: 'material'
   palette:

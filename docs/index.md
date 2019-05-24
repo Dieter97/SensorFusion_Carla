@@ -11,9 +11,8 @@ Welcome my documentation for my master's thesis on LiDAR and Camera fusion for a
 ## Overview
 This documentation includes:
 
-* [Dependencies installation](installation.md)
-* [Quick start guide](start.md)
-* [Running the evaluation](evaluation.md)
-* [Portfolio documents](docs.md)
-* [ROS messages and topic overview](ros.md)
+* [Dependencies installation](Tech Report/Documentation/installation.md)
+* [Quick start guide](Tech Report/Documentation/start.md)
+* [Running the evaluation](Tech Report/Documentation/evaluation.md)
+* [Portfolio documents](Administration/docs.md)
 
