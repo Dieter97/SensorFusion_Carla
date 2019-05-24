@@ -5,6 +5,12 @@ pages:
     - 'Installation': 'installation.md'
     - 'Quick Start': 'start.md'
     - 'Evaluation' : 'evaluation.md'
+- Code Reference:
+    - 'cloud_crop': 'code/cloud_crop.md'
+    - 'Clustering': 'code/clustering.md'
+    - 'Fusion 1: camera based': 'code/fusion1.md'
+    - 'Fusion 2: cluster based': 'code/fusion2.md'
+    - 'Lidar_camera_fusion': 'code/lidar_camera.md'
 - Portfolio:
     - 'Documents': 'docs.md'
 - About:
