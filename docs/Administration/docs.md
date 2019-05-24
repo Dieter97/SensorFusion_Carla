@@ -1,20 +1,28 @@
 # Documents
 
-Here all important portfolio documentation can be found:
-
-## Surver paper
-
-[Open here in external viewer](Survey.pdf)
-
-<embed src= "Survey.pdf" width= "700" height= "500">
+Here can all important administration documents be found:
 
 ## Map proposal
 
+<a href="Proposal.pdf" target="_blank">Open here in external viewer</a>
+
 <embed src= "Proposal.pdf" width= "700" height= "500">
 
-## Videos
+## Internship Agreement
 
-<video width="700" height="500" controls>
-  <source src="Lidar_camera_fusion.mkv" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<a href="Stageovereenkomst.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "Stageovereenkomst.pdf" width= "700" height= "500">
+
+## Risk analysis & werkpost fiche
+
+<a href="Risico_Werkpost.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "Risico_Werkpost.pdf" width= "700" height= "500">
+
+## Internship Schedule
+
+<a href="Stagerooster.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "Stagerooster.pdf" width= "700" height= "500">
+

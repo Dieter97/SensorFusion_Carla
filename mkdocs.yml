@@ -13,14 +13,18 @@ pages:
     - 'Lidar_camera_fusion': 'Tech Report/Documentation/code/lidar_camera.md'
     - 'sensor_fusion_msg':
         - 'CameraObjects': 'Tech Report/Documentation/code/msg/cameraObjects.md'
-        - 'FusedObjectsMsg': 'Tech Report/Documentation/code/msg/fusedObject.md'
+        - 'FusedObjectsMsg': 'Tech Report/Documentation/code/msg/fusedObjects.md'
         - 'LidarClusters': 'Tech Report/Documentation/code/msg/LidarClusters.md'
         - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
         - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
-- Portfolio:
+- Adminisration:
     - 'Documents': 'Administration/docs.md'
-- About:
-    - 'About': 'Administration/about.md'
+- Papers: 'Papers/papers.md'
+- Presentations:
+    - 'Presentations': 'Presentations/presentations.md'
+    - 'Videos': 'Presentations/videos.md'
+- Resources: 'Resources/resources.md'
+- 'About': 'Administration/about.md'
 theme:
   name: 'material'
   palette:
