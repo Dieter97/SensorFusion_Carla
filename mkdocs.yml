@@ -35,8 +35,7 @@ use_directory_urls: false
 markdown_extensions:
     - admonition
     - codehilite
-    - pymdownx.emoji:
-        emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.emoji
     - pymdownx.inlinehilite
     - pymdownx.arithmatex
     - pymdownx.smartsymbols
