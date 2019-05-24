@@ -49,7 +49,7 @@ class Car:
         # camera_bp.set_attribute('sensor_tick', '1.0')
         camera_bp.set_attribute('image_size_x', '1344') #1344
         camera_bp.set_attribute('image_size_y', '376') #376
-	camera_bp.set_attribute('fov','90')
+        camera_bp.set_attribute('fov','90')
         transform = carla.Transform(carla.Location(x=1.8, z=2.5))
         camera = self.world.spawn_actor(camera_bp, transform, attach_to=player)
         self.actor_list.append(camera)

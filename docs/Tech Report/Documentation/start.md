@@ -4,8 +4,8 @@ This guide will explain how to quick start the application
 
 ## Starting the simulator
 
-!!! Danger
-    Todo
+!!! Info
+    The code for the simulation can be found in the folder [Tech Report/code/SensorFusion_Carla](Tech Report/code/SensorFusion_Carla)
 
 ### Step 1: Starting the Carla Simulator
 To start the carla simulator go to the Carla directory and type:
@@ -22,74 +22,114 @@ $ source venv/bin/activate
 $ python Car.py
 ```
 
-## Starting the main programs
+## Executing the fusion program
 
 The main fusion program consists of a few nodes that need to be started:
 
-!!! todo
-    add links
+- [cloud_crop](code/cloud_crop.md): will filter the lidar input cloud to output only camera visilbe points
+- [clusteringCUDA](code/clustering.md): will output clusters from the lidar point cloud
+- [Lidar_object_fusion](code/fusion1.md): this is fusion system 1 (camera based)
+- [Cluster_camera_fusion](code/fusion2.md): this is fusion system 2 (cluster based)
+- [Lidar_camera_fusion](code/lidar_camera.md): this will output the camera image a mapped lidar point cloud on top
 
-- [cloud_crop](): will filter the lidar input cloud to output only camera visilbe points
-- [clusteringCUDA](): will output clusters from the lidar point cloud
-- [Lidar_object_fusion](): this is fusion system 1 (camera based)
-- [Cluster_camera_fusion](): this is fusion system 2 (cluster based)
-- [Lidar_camera_fusion](): this will output the camera image a mapped lidar point cloud on top
+!!! Help
+    To execute the program use the included launch files.
+   
+    The launch files are located in [Tech Report/code/catkin_ws_sensorfusion/src/launch](Tech Report/code/catkin_ws_sensorfusion/src/launch)
 
-To start use the included launch file.
+## Building program
+
+The main sensor fusion code is located [Tech Report/code/catkin_ws_sensorfusion](Tech Report/code/catkin_ws_sensorfusion)
+To compile the program go to the root directory of the catkin_ws_sensorfusion project and execute:
+
+```
+catkin make
+source devel/setup.bash
+```
 
 ### Running using the simulator
 
+??? Details
+
+    
+    Start the main fusion program along with its required node and the simulator config:
+    
+    ```
+    cd catkin_ws_sensorfusion/src/launch
+    roslaunch Lidar_object_fusion_CARLA.launch
+    - or -
+    roslaunch cluster_camera_fusion_CARLA.launch
+    - or -
+    roslaunch lidar_camera_fusion_CARLA.launch
+    ```
+    
+    These launch files will start the required ROS nodes with correct parameters.
+    
+    ??? Help 
+        - Camera input topic: /carla/ego_vehicle/camera/rgb/front/image_color
+        - Lidar point cloud: /carla/<ROLE NAME>/lidar/<SENSOR ROLE NAME>/point_cloud
+        - COP: (0, 0, 0)
+        - Scale factor: -3500
+        - Camera plane: 0.2
+        
+        :exclamation: You can edit the launch file to match your needed parameters :exclamation:
 
 
 ### Running using the KITTI raw data set
 
-!!! Alert
-    This reqruires you to have downloaded the KITTI raw data sets as explained in [the evaluation process](evaluation.md)
+??? Details
 
-Start the main fusion programm along with its required node:
-
-```
-roslaunch Lidar_object_fusion_KITTI.launch
-- or -
-roslaunch cluster_camera_fusion_KITTI.launch
-- or -
-roslaucnh lidar_camera_fusion_KITTI.launch
-```
-
-These launch files will start the required ROS nodes with correct parameters.
-
-??? Help 
-    - Camera input topic: /kitti/camera_color_left/raw
-    - Lidar point cloud: /kitti/velodyne/points
-    - COP: (0.054, 0, 0)
-    - Scale factor: -3500
-    - Camera plane: 0.27
+    !!! Alert
+        This requires you to have downloaded the KITTI raw data sets as explained in [the evaluation process](evaluation.md)
     
-    :exclamation: You can edit the launch file to match your needed parameters :exclamation:
-
-
-### Running using real sensors
-
-To launch the system to work on the BMW test car. This config is tested with the ZED camera and the VLP16 camera.
-
-To launch:
-
-```
-roslaunch Lidar_object_fusion_BMW.launch
-- or -
-roslaunch cluster_camera_fusion_BMW.launch
-- or -
-roslaucnh lidar_camera_fusion_BMW.launch
-```
-
-These launch files will start the required ROS nodes with correct parameters.
-
-??? Help 
-    - Camera input topic: /zed/camera/left/raw
-    - Lidar point cloud: /velodyne/pointcloud
-    - COP: (0, 0, 0)
-    - Scale factor: -4500
-    - Camera plane: 0.35
+    Start the main fusion program along with its required node and the KITTI config:
     
-    :exclamation: You can edit the launch file to match your needed parameters :exclamation:
+    ```
+    cd catkin_ws_sensorfusion/src/launch
+    roslaunch Lidar_object_fusion_KITTI.launch
+    - or -
+    roslaunch cluster_camera_fusion_KITTI.launch
+    - or -
+    roslaunch lidar_camera_fusion_KITTI.launch
+    ```
+    
+    These launch files will start the required ROS nodes with correct parameters.
+    
+    ??? Help 
+        - Camera input topic: /kitti/camera_color_left/image_raw
+        - Lidar point cloud: /kitti/velo/pointcloud
+        - COP: (0.054, 0, 0)
+        - Scale factor: -3500
+        - Camera plane: 0.27
+        
+        :exclamation: You can edit the launch file to match your needed parameters :exclamation:
+
+
+### Running using real sensors (BMW)
+
+??? Details
+
+    To launch the system to work on the BMW test car. This config is tested with the ZED camera and the VLP16 LiDAR.
+    
+    Start the main fusion program along with its required node and the BMW config:
+    
+    ```
+    cd catkin_ws_sensorfusion/src/launch
+    roslaunch Lidar_object_fusion_BMW.launch
+    - or -
+    roslaunch cluster_camera_fusion_BMW.launch
+    - or -
+    roslaunch lidar_camera_fusion_BMW.launch
+    ```
+    
+    These launch files will start the required ROS nodes with correct parameters.
+    
+    ??? Help 
+        - Camera input topic: /zed/zed_node/left_raw/image_raw_color
+        - Lidar point cloud: /velodyne_points
+        - COP: (-0.08, 0, -0.02)
+        - Scale factor: -4500
+        - Camera plane: 0.2
+        
+        :exclamation: You can edit the launch file to match your needed parameters :exclamation:
 
