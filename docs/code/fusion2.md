@@ -1,8 +1,8 @@
-# Lidar_object_fusion
+# Cluster_camera_fusion
 
 ### Overview
-This is the fist fusion system as proposed in my paper.
-This ROS node will fuse the lidar and camera sensor input based on camera proposed ROI's.
+This is the second fusion system as proposed in my paper.
+This ROS node will fuse the lidar and camera sensor input based on lidar proposed clusters and ROI's.
 
 ### Inputs
 

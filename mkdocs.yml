@@ -6,11 +6,17 @@ pages:
     - 'Quick Start': 'start.md'
     - 'Evaluation' : 'evaluation.md'
 - Code Reference:
-    - 'cloud_crop': 'code/cloud_crop.md'
+    - 'Cloud_crop': 'code/cloud_crop.md'
     - 'Clustering': 'code/clustering.md'
-    - 'Fusion 1: camera based': 'code/fusion1.md'
-    - 'Fusion 2: cluster based': 'code/fusion2.md'
+    - 'Lidar_oject_fusion': 'code/fusion1.md'
+    - 'Cluster_camera_fusion': 'code/fusion2.md'
     - 'Lidar_camera_fusion': 'code/lidar_camera.md'
+    - 'sensor_fusion_msg':
+        - 'CameraObjects': 'code/msg/cameraObjects.md'
+        - 'FusedObjectsMsg': 'code/msg/fusedObject.md'
+        - 'LidarClusters': 'code/msg/LidarClusters.md'
+        - 'MappedPointMsg': 'code/msg/MappedPoint.md'
+        - 'ObjectBoundingBox': 'code/msg/ObjectBoundingBox.md'
 - Portfolio:
     - 'Documents': 'docs.md'
 - About:

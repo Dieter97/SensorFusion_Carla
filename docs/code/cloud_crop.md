@@ -1,4 +1,4 @@
-# cloud_crop
+# Cloud_crop
 
 ### Overview
 
@@ -20,6 +20,6 @@ This ROS node take in a raw point cloud and will preprocess this cloud in three 
 
 ### Outputs
 
-|  Parameter name |  Description  |  Type  |
+|  Topic name |  Description  |  Type  |
 |-----------------|---------------|--------|
-|  output  	| the processed point cloud	| Pointcloud2 |
+|  /lidar/detection/out/cropped  	| the processed point cloud	| Pointcloud2 |

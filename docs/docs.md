@@ -18,21 +18,3 @@ Here all important portfolio documentation can be found:
   <source src="Lidar_camera_fusion.mkv" type="video/mp4">
     Your browser does not support the video tag.
 </video>
-
-## TEST
-```java linenums="1 1 2"
-pulbic class Test {
-    private String name;
-    private int length;
-    
-    public Test(String n, int l) {
-        this.name = n;
-        this.length = l;
-    }
-    
-    @Override
-    public String toString() {
-        return "Name: " + name + "\nLength: " + length;
-    }
-}
-```
