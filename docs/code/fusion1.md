@@ -1,19 +1,16 @@
-# clusteringCUDA
+# Lidar_object_fusion
 
 ### Overview
-
-!!! Warning
-    This node requires CUDA 10.0 and PCL 1.9 to be correctly installed 
-
-This ROS node outputs cluster from a raw point cloud. In the main system this node is placed after the cloud_crop node. 
-This node requires a GPU.
-
+This is the fist fusion system as proposed in my paper.
+This ROS node will fuse the lidar and camera sensor input based on camera proposed ROI's.
 
 ### Inputs
 
 |  Parameter name |  Description  |  Type  |
 |-----------------|---------------|--------|
 |  input  	|  preprocessed cloud (cloud_crop output)	| Pointcloud2 |
+|  cameraInput  	|  raw camera input	| Image |
+
 
 
 ### Outputs
@@ -21,3 +18,5 @@ This node requires a GPU.
 |  Parameter name |  Description  |  Type  |
 |-----------------|---------------|--------|
 |  output  	| separate clusters	|  sensor_fusion_msg/LidarClusters |
+
+
