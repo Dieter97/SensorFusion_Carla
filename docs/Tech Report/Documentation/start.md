@@ -36,6 +36,8 @@ The main fusion program consists of a few nodes that need to be started:
     To execute the program use the included launch files.
    
     The launch files are located in [Tech Report/code/catkin_ws_sensorfusion/src/launch](Tech Report/code/catkin_ws_sensorfusion/src/launch)
+    
+    You can edit the parameters in the launch files themselves! For the evaluation you can edit the label parameter also in the launch file!
 
 ## Building program
 

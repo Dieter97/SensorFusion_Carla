@@ -22,7 +22,7 @@ Download one of these data sets. You need the synced+rectified data, calibration
     ``` 
 
 #### Unzip
-Next unzip everything in order to get the folowing structure:
+Next unzip everything in order to get the following structure:
 
 ```
 2011_09_26/
@@ -58,7 +58,7 @@ kitti2bag -t 2011_09_26 -r 0001 raw_synced .
 ```
 
 ### Start the rosbag and run the fusion algorithm
-First start the fusion program itself as explained in a previous manual.
+First start the fusion program itself as explained in the [quick start manual](start.md).
 
 
 !!! info
