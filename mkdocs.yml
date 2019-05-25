@@ -18,6 +18,8 @@ pages:
           - 'LidarClusters': 'Tech Report/Documentation/code/msg/LidarClusters.md'
           - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
           - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
+  - Reports: 'Tech Report/reports.md'
+  - Pictures: 'Tech Report/pictures.md'
 - Adminisration:
     - 'Documents': 'Administration/docs.md'
 - Papers: 'Papers/papers.md'
@@ -31,6 +33,11 @@ theme:
   palette:
     primary: 'White'
     accent: 'Orange'
+  feature:
+    tabs: true
+google_analytics:
+  - 'UA-31328111-2'
+  - 'auto'
 use_directory_urls: false
 markdown_extensions:
     - admonition

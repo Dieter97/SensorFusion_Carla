@@ -10,6 +10,6 @@ Here you can find the papers I wrote for this research.
 
 ## Final Paper:
 
-<a href="Proposal.pdf" target="_blank">Open here in external viewer</a>
+<a href="Masterproef_Paper.pdf" target="_blank">Open here in external viewer</a>
 
-<embed src= "" width= "700" height= "500">
+<embed src="Masterproef_Paper.pdf" width= "700" height= "500">
