@@ -4,8 +4,11 @@ Welcome my documentation for my master's thesis on LiDAR and Camera fusion for a
 
 * [Carla modules](https://github.com/Dieter97/SensorFusion_Carla)
 * [ROS Nodes](https://github.com/Dieter97/SensorFusion_ros)
-
- ![heading](predictions.jpg)
+ 
+ <img src="fusion1_ex_detection.png"/>
+ <img src="BMW.jpg" style="width:50%; display: inline-block;"/>
+ <img src="Sensors.jpg" style="width:50%; display: inline-block; float:right;"/>
+ 
 ---
 
 ## Overview
