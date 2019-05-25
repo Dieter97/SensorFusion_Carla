@@ -22,11 +22,13 @@ pages:
   - Pictures: 'Tech Report/pictures.md'
 - Adminisration:
     - 'Documents': 'Administration/docs.md'
-- Papers: 'Papers/papers.md'
+- Papers:
+    - Paper: 'Papers/papers.md'
 - Presentations:
     - 'Presentations': 'Presentations/presentations.md'
     - 'Videos': 'Presentations/videos.md'
-- Resources: 'Resources/resources.md'
+- Resources:
+  - Resources: 'Resources/resources.md'
 - 'About': 'Administration/about.md'
 theme:
   name: 'material'
