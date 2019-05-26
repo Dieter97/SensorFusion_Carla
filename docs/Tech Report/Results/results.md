@@ -65,3 +65,22 @@ Videos of the Carla Tests can be found in the folder [Tech Report/Results/Carla]
 
 ## BMW Tests
 
+Videos of the tests with the BMW data
+
+#### Lidar_object_BMW_1
+
+<a href="BMW/Lidar_object_BMW_1.mkv" target="_blank">Open here in external viewer</a>
+
+<video width="700" height="500" controls>
+  <source src="BMW/Lidar_object_BMW_1.mkv" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+#### Lidar_object_BMW_2
+
+<a href="BMW/Lidar_object_BMW_2.mkv" target="_blank">Open here in external viewer</a>
+
+<video width="700" height="500" controls>
+  <source src="BMW/Lidar_object_BMW_2.mkv" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
