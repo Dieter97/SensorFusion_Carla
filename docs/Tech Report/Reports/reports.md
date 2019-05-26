@@ -7,12 +7,36 @@ This page lists all reports and other documents made for this thesis.
 !!! Info
     Also the evaluation manual can be considered a report. Read it [here](Documentation/evaluation.md)
     
+<a href="Evaluation Script.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "Evaluation Script.pdf" width= "700" height= "500">
 
 ## Future work
 
+<a href="FutureWork.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "FutureWork.pdf" width= "700" height= "500">
+
 ## Schedules
 
-## Objective
+<a href="UpdatedSchedule.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "UpdatedSchedule.pdf" width= "700" height= "500">
+
+## Objective OLD
+
+!!! Warning "Out-dated"
+    This document is outdated. The scope of the thesis was updated during the course of the thesis.
+
+<a href="Map-Research-Objective-MidTerm.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "Map-Research-Objective-MidTerm.pdf" width= "700" height= "500">
+
+## Objective NEW
+
+<a href="Map-Research-Objective-NEW.pdf" target="_blank">Open here in external viewer</a>
+
+<embed src= "Map-Research-Objective-NEW.pdf" width= "700" height= "500">
 
 ## Algorithms
 

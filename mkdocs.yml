@@ -6,7 +6,8 @@ nav:
       - 'Installation': 'Tech Report/Documentation/installation.md'
       - 'Quick Start': 'Tech Report/Documentation/start.md'
       - 'Evaluation' : 'Tech Report/Documentation/evaluation.md'
-  - Code Reference:
+  - Code:
+      - 'Code Overview': 'Tech Report/Documentation/code/code.md'
       - 'Cloud_crop': 'Tech Report/Documentation/code/cloud_crop.md'
       - 'Clustering': 'Tech Report/Documentation/code/clustering.md'
       - 'Lidar_oject_fusion': 'Tech Report/Documentation/code/fusion1.md'
@@ -18,7 +19,7 @@ nav:
           - 'LidarClusters': 'Tech Report/Documentation/code/msg/LidarClusters.md'
           - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
           - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
-  - Reports: 'Tech Report/reports.md'
+  - Reports: 'Tech Report/Reports/reports.md'
   - Test Data: 'Tech Report/Test Data/test_data.md'
   - Results: 'Tech Report/Results/results.md'
   - Pictures: 'Tech Report/pictures.md'
