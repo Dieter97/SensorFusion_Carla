@@ -9,8 +9,8 @@ Links to the project's code repositories can be found here:
  
 Offline versions of the code:
 
-* [Carla modules](Tech%20Report/code/SensorFusion_Carla)
-* [ROS Nodes](Tech%20Report/code/catkin_ws_sensorfusion)
+* [Carla modules](Tech Report/Code/SensorFusion_Carla)
+* [ROS Nodes](Tech Report/Code/catkin_ws_sensorfusion)
 
  <img src="Tech%20Report/Pictures/fusion1_ex_detection.png"/>
  <img src="Tech%20Report/Pictures/BMW.jpg" style="width:50%; display: inline-block;"/>

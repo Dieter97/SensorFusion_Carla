@@ -3,9 +3,9 @@
 ## Relevant Links
 
 * [OpenCV](https://docs.opencv.org/4.0.1/)
-* [ROS](http://http://wiki.ros.org/)
+* [ROS](http://wiki.ros.org/)
 * [Point Cloud Library](http://pointclouds.org)
-* [Carla Simulator](http://http://carla.org/)
+* [Carla Simulator](http://carla.org/)
 
 ## BibTex references
 
