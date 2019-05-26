@@ -24,10 +24,11 @@ nav:
   - Results: 'Tech Report/Results/results.md'
   - Pictures: 'Tech Report/pictures.md'
   - Datasheets: "Tech Report/Datasheets/datasheets.md"
+  - Schemas: 'Tech Report/Schemas/schemas.md'
 - Adminisration:
     - 'Documents': 'Administration/docs.md'
 - Papers:
-    - Paper: 'Papers/papers.md'
+    - Papers: 'Papers/papers.md'
 - Presentations:
     - 'Presentations': 'Presentations/presentations.md'
     - 'Videos': 'Presentations/videos.md'

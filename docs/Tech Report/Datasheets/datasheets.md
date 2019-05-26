@@ -2,7 +2,7 @@
 
 Relavant datasheets:
 
-## Velodyne LiDAR VLP16:
+## Velodyne LiDAR VLP16
 
 Tutorial on how to install ROS modules for VLP16: [here](http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16)
 
