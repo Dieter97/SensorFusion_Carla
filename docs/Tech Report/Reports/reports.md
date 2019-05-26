@@ -19,6 +19,12 @@ This page lists all reports and other documents made for this thesis.
 
 ## Schedules
 
+??? Warning "Open the old schedule here"
+    The scope of the thesis was updated during the course of the thesis.
+    <a href="UpdatedSchedule.pdf" target="_blank">Open here in external viewer</a>
+
+    <embed src= "UpdatedSchedule.pdf" width= "700" height= "500">
+
 <a href="UpdatedSchedule.pdf" target="_blank">Open here in external viewer</a>
 
 <embed src= "UpdatedSchedule.pdf" width= "700" height= "500">
