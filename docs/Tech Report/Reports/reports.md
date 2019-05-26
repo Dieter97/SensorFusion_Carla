@@ -5,7 +5,7 @@ This page lists all reports and other documents made for this thesis.
 ## Evaluation 
 
 !!! Info
-    Also the evaluation manual can be considered a report. Read it [here](Documentation/evaluation.md)
+    Also the evaluation manual can be considered a report. Read it [here](../Documentation/evaluation.md)
     
 <a href="Evaluation Script.pdf" target="_blank">Open here in external viewer</a>
 

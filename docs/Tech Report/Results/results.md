@@ -9,7 +9,7 @@ The calibration parameters can be found in the launch files.
     Not all these data set where used for evaluation! The KITTI data set 0022 and 0059 where used to evaluate!
     The results of these evaluation can be found in the [Sensor Fusion results.xlsx](Sensor%20Fusion%20results.xlsx) file
         
-The folder [Tech Report/Results](.) contains a subfolder for each test. These subfolders are structured as follows:
+The folder [Tech Report/Results](../Results) contains a subfolder for each test. These subfolders are structured as follows:
 
 ```
 Results/

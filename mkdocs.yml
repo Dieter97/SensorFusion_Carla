@@ -22,7 +22,7 @@ nav:
   - Reports: 'Tech Report/Reports/reports.md'
   - Test Data: 'Tech Report/Test Data/test_data.md'
   - Results: 'Tech Report/Results/results.md'
-  - Pictures: 'Tech Report/pictures.md'
+  - Pictures: 'Tech Report/Pictures/pictures.md'
   - Datasheets: "Tech Report/Datasheets/datasheets.md"
   - Schemas: 'Tech Report/Schemas/schemas.md'
 - Adminisration:
