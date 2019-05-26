@@ -45,7 +45,7 @@ The main sensor fusion code is located [Tech Report/code/catkin_ws_sensorfusion]
 To compile the program go to the root directory of the catkin_ws_sensorfusion project and execute:
 
 ```
-catkin make
+catkin_make
 source devel/setup.bash
 ```
 

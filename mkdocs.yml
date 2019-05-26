@@ -1,5 +1,5 @@
 site_name: Sensor Fusion Documentation
-pages:
+nav:
 - Home: 'index.md'
 - Tech Report:
   - User Guide:
@@ -19,6 +19,8 @@ pages:
           - 'MappedPointMsg': 'Tech Report/Documentation/code/msg/MappedPoint.md'
           - 'ObjectBoundingBox': 'Tech Report/Documentation/code/msg/ObjectBoundingBox.md'
   - Reports: 'Tech Report/reports.md'
+  - Test Data: 'Tech Report/Test Data/test_data.md'
+  - Results: 'Tech Report/Results/results.md'
   - Pictures: 'Tech Report/pictures.md'
 - Adminisration:
     - 'Documents': 'Administration/docs.md'
