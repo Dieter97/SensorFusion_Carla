@@ -5,7 +5,7 @@ This guide will explain how to quick start the application
 ## Starting the simulator
 
 !!! Info
-    The code for the simulation can be found in the folder [Tech Report/Code/SensorFusion_Carla](Tech Report/Code/SensorFusion_Carla)
+    The code for the simulation can be found in the folder [Tech Report/Code/SensorFusion_Carla](../Code/SensorFusion_Carla)
 
 ### Step 1: Starting the Carla Simulator
 To start the carla simulator go to the Carla directory and type:
@@ -35,13 +35,13 @@ The main fusion program consists of a few nodes that need to be started:
 !!! Help
     To execute the program use the included launch files.
    
-    The launch files are located in [Tech Report/Code/catkin_ws_sensorfusion/src/launch](Tech Report/Code/catkin_ws_sensorfusion/src/launch)
+    The launch files are located in [Tech Report/Code/catkin_ws_sensorfusion/src/launch](../Code/catkin_ws_sensorfusion)
     
     You can edit the parameters in the launch files themselves! For the evaluation you can edit the label parameter also in the launch file!
 
 ## Building program
 
-The main sensor fusion code is located [Tech Report/Code/catkin_ws_sensorfusion](Tech Report/Code/catkin_ws_sensorfusion)
+The main sensor fusion code is located [Tech Report/Code/catkin_ws_sensorfusion](../Code/catkin_ws_sensorfusion)
 To compile the program go to the root directory of the catkin_ws_sensorfusion project and execute:
 
 ```

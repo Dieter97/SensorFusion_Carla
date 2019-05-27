@@ -44,7 +44,7 @@ theme:
     tabs: true
 google_analytics:
   - 'UA-31328111-2'
-  - 'auto'
+  - 'sensorfusion-carla.readthedocs.io'
 use_directory_urls: false
 markdown_extensions:
     - admonition
