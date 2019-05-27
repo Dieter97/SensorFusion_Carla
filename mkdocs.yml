@@ -25,7 +25,7 @@ nav:
   - Pictures: 'Tech Report/Pictures/pictures.md'
   - Datasheets: "Tech Report/Datasheets/datasheets.md"
   - Schemas: 'Tech Report/Schemas/schemas.md'
-- Adminisration:
+- Administration:
     - 'Documents': 'Administration/docs.md'
 - Papers:
     - Papers: 'Papers/papers.md'

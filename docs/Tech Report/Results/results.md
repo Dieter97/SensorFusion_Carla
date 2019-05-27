@@ -3,6 +3,12 @@
 Here you can find my results from running the algorithm on the different data sets.
 The calibration parameters can be found in the launch files.
 
+!!! Warning "Limited Space"
+    Because of the limited space the videos are available online at:
+    
+    * [Google Drive](https://drive.google.com/drive/folders/1kZMNsIhoIO_9F5K1yZ4li_xcJqyBwVz2?usp=sharing)
+    * [Uantwerpen OneDrive](https://uantwerpen-my.sharepoint.com/:f:/g/personal/s0151716_ad_ua_ac_be/EqGfN5KMX5xJp4FPItZT1fMBPWjOy-MoQ34EUz-llaDiPg?e=KY2ITf)
+
 ## KITTI
 
 !!! Danger "Evaluation"
@@ -24,6 +30,7 @@ Results/
 └── └── Videos
  
 ```
+
 ??? Example "Links"
 
     * [0002](0002/)
@@ -35,52 +42,18 @@ Results/
 
 Videos of the Carla Tests can be found in the folder [Tech Report/Results/Carla](Carla).
 
-
-#### Carla_cluster_camera_1
-
-<a href="Carla/Carla_cluster_camera_1.mkv" target="_blank">Open here in external viewer</a>
-
-<video width="700" height="500" controls>
-  <source src="Carla/Carla_cluster_camera_1.mkv" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-#### Carla_object_lidar_1
-
-<a href="Carla/Carla_object_lidar_1.mkv" target="_blank">Open here in external viewer</a>
-
-<video width="700" height="500" controls>
-  <source src="Carla/Carla_object_lidar_1.mkv" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-#### Carla_lidar_object_2
-
-<a href="Carla/Carla_lidar_object_2.mkv" target="_blank">Open here in external viewer</a>
-
-<video width="700" height="500" controls>
-  <source src="Carla/Carla_lidar_object_2.mkv" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+!!! Help "Google Drive"
+    The videos are available in the Results/Carla folder in the Google Drive share.
+    
+    * [Google Drive](https://drive.google.com/drive/folders/1kZMNsIhoIO_9F5K1yZ4li_xcJqyBwVz2?usp=sharing)
+    * [Uantwerpen OneDrive](https://uantwerpen-my.sharepoint.com/:f:/g/personal/s0151716_ad_ua_ac_be/EqGfN5KMX5xJp4FPItZT1fMBPWjOy-MoQ34EUz-llaDiPg?e=KY2ITf)
 
 ## BMW Tests
 
 Videos of the tests with the BMW data
 
-#### Lidar_object_BMW_1
-
-<a href="BMW/Lidar_object_BMW_1.mkv" target="_blank">Open here in external viewer</a>
-
-<video width="700" height="500" controls>
-  <source src="BMW/Lidar_object_BMW_1.mkv" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-#### Lidar_object_BMW_2
-
-<a href="BMW/Lidar_object_BMW_2.mkv" target="_blank">Open here in external viewer</a>
-
-<video width="700" height="500" controls>
-  <source src="BMW/Lidar_object_BMW_2.mkv" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+!!! Help "Google Drive"
+    The videos are available in the Results/BMW folder in the Google Drive share.
+    
+    * [Google Drive](https://drive.google.com/drive/folders/1kZMNsIhoIO_9F5K1yZ4li_xcJqyBwVz2?usp=sharing)
+    * [Uantwerpen OneDrive](https://uantwerpen-my.sharepoint.com/:f:/g/personal/s0151716_ad_ua_ac_be/EqGfN5KMX5xJp4FPItZT1fMBPWjOy-MoQ34EUz-llaDiPg?e=KY2ITf)
